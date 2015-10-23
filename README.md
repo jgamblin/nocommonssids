@@ -8,9 +8,12 @@ Having common network names saved in your perferednetworks list makes it easier 
 <img src="https://raw.githubusercontent.com/jgamblin/nocommonssids/master/nocommonssids.gif" width="600">
 
 #Running
+*quite mode:*
+
 sudo python nocommonssids.py
 
-verbose mode: 
+*verbose mode:*
+
 sudo python nocommonssidsloud.py 
 
 #Important Notice
