@@ -10,8 +10,7 @@ Having common network names saved in your perferednetworks list makes it easier 
 #Running
 sudo python nocommonssids.py
 
-or for a verbose run: 
-
+verbose mode: 
 sudo python nocommonssidsloud.py 
 
 #Important Notice
