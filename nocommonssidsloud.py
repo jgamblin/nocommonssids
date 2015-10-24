@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Name:     nocommonssids.py
+# Name:     nocommonssidslous.py
 # Purpose:  Removes Common SSID's From OSX. 
 # By:       Jerry Gamblin
 # Date:     23.10.15
@@ -39,7 +39,7 @@ for ssid in ssids:
 	os.system("networksetup -removepreferredwirelessnetwork en0 %s" % (ssid) )
 	count += 1
 print "\n"
-print (blue("Removed %s Common SSID's from your system." % count))
+print (blue("Removed %s Common SSIDs from your system." % count))
 print "\n"
 print (blue("Your MAC Now Autoconnects To Following Wireless Networks:"))
 os.system("networksetup -listpreferredwirelessnetworks en0")	
