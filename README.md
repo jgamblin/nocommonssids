@@ -1,5 +1,5 @@
 # No Common SSIDS 
-nocommonssids.py Removes 100+ common SSIDs from preferred networks in OSX. 
+nocommonssids.py Removes the top 1000 common SSIDs from wigle.net from preferred networks in OSX. 
 
 #Why
 Having common network names saved in your perferednetworks list makes it easier for bad actors to intercept your wireless traffic. 
@@ -18,4 +18,4 @@ sudo python nocommonssidsloud.py
 
 #Important Notice
 
-I dont know what I am doing. I am not a programmer.  If this works its because I am lucky. 
+I dont know what I am doing. I am not a programmer.   
